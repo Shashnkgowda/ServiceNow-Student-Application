@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Student Details Excel Sheet Table" max_length="40" name="x_820118_stds_student_details_excel_sheet_table" sizeclass="17" type="collection">
+    <element label="Student Details Excel Sheet Table" max_length="40" name="x_820118_stds_student_details_excel_sheet_table" sizeclass="5" type="collection">
         <element label="Chemistry" max_length="40" name="chemistry" type="integer"/>
         <element label="Computer Science" max_length="40" name="computer_science" type="integer"/>
         <element label="Father Name" max_length="40" name="father_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gender" max_length="40" name="gender1" type="string"/>
         <element label="Mathematics" max_length="40" name="mathematics" type="integer"/>
         <element label="Physics" max_length="40" name="physics" type="integer"/>
         <element label="Roll  No" max_length="40" name="roll_no" type="integer"/>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Student Result Table" max_length="40" name="x_820118_stds_student_result_table" sizeclass="6" text_index="true" type="collection">
+    <element audit="true" label="Student Result Table" max_length="40" name="x_820118_stds_student_result_table" sizeclass="5" text_index="true" type="collection">
         <element label="Chemistry" max_length="40" name="chemistry" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Class" max_length="40" name="class" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Father Name" max_length="40" name="father_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="son" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
         <element label="Mathematics" max_length="40" name="mathematics" type="integer"/>
         <element attributes="encode_utf8=false,ref_contributions=user_show_student_result_table;teamchat" label="Meeting" max_length="40" name="meeting" type="glide_date_time"/>
         <element label="Name" max_length="32" name="name" reference="x_820118_stds_student_details_list" type="reference"/>
