@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
     <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applicability display_value="Public">89a1deebdc745110abff7515b3e6e947</applicability>
+        <applicability display_value="">89a1deebdc745110abff7515b3e6e947</applicability>
         <order>0</order>
         <screen display_value="Login Default">85a1deeb4774511007c927ff7c124f42</screen>
         <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>

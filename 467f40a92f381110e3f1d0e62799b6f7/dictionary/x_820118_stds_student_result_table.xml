@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Student Result Table" max_length="40" name="x_820118_stds_student_result_table" sizeclass="13" text_index="true" type="collection">
+    <element audit="true" label="Student Result Table" max_length="40" name="x_820118_stds_student_result_table" sizeclass="6" text_index="true" type="collection">
         <element label="Chemistry" max_length="40" name="chemistry" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Class" max_length="40" name="class" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Father Name" max_length="40" name="father_name" type="string"/>

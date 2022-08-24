@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Student Details List" max_length="40" name="x_820118_stds_student_details_list" sizeclass="12" text_index="true" type="collection">
+    <element audit="true" label="Student Details List" max_length="40" name="x_820118_stds_student_details_list" sizeclass="0" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Class" max_length="68" name="class" type="string"/>
         <element label="Father Name" max_length="40" name="father_name" type="string"/>
         <element label="Student Email" max_length="50" name="student_email" type="string"/>

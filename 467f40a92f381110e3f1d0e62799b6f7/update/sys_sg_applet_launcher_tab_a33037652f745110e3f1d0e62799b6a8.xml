@@ -4,7 +4,6 @@
         <applet_launcher display_value="Student application">2f3037652f745110e3f1d0e62799b6a6</applet_launcher>
         <icon display_value="Knowledge">ef3037652f745110e3f1d0e62799b6a5</icon>
         <label>Student application</label>
-        <roles>x_820118_stds.principal,x_820118_stds.student,x_820118_stds.teacher</roles>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-20 08:01:50</sys_created_on>

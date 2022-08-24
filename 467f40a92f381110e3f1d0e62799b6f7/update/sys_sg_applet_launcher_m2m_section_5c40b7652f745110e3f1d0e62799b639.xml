@@ -2,7 +2,7 @@
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
         <applet_launcher display_value="Student application">2f3037652f745110e3f1d0e62799b6a6</applet_launcher>
         <order>0</order>
-        <section display_value="Student Result Table">d040b7652f745110e3f1d0e62799b638</section>
+        <section display_value="Details And Properties">d040b7652f745110e3f1d0e62799b638</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-20 08:01:53</sys_created_on>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Create New Result Record">080400522f855110e3f1d0e62799b614</sc_cat_item>
+        <sc_category display_value="MyCollege Catagory">ef0230ad2f491110e3f1d0e62799b642</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 09:00:54</sys_created_on>
+        <sys_id>05048c162f855110e3f1d0e62799b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyCollege Catagory.Create New Result Record</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_category_05048c162f855110e3f1d0e62799b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 09:00:54</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>ad3cb4391b39c990e84d2f8dee4bcbcf</instance_id>
+        <instance_name>dev125929</instance_name>
+        <name>sc_cat_item_category_05048c162f855110e3f1d0e62799b6cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create New Result Record">080400522f855110e3f1d0e62799b614</sc_cat_item>
+        <sc_category display_value="MyCollege Catagory">ef0230ad2f491110e3f1d0e62799b642</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 09:00:54</sys_created_on>
+        <sys_id>05048c162f855110e3f1d0e62799b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyCollege Catagory.Create New Result Record</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_category_05048c162f855110e3f1d0e62799b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 09:00:54</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>2053746787</payload_hash>
+        <record_name>MyCollege Catagory.Create New Result Record</record_name>
+        <reverted_from/>
+        <source>89bf66944761111078879128436d43a0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 12:54:48</sys_created_on>
+        <sys_id>38cfea944761111078879128436d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c59eb37a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 12:54:48</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f4cfea94486111106bc28ac1aa0ea3f9</update_guid>
+        <update_guid_history>f4cfea94486111106bc28ac1aa0ea3f9:2053746787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MyCollege Catagory.Create New Result Record">aa5a769447a1111078879128436d4374</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 13:41:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>5ac330c7343e4b899682f3e761f7ced1</sys_id>
+        <sys_metadata>05048c162f855110e3f1d0e62799b6cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyCollege Catagory.Create New Result Record</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sc_cat_item_category_05048c162f855110e3f1d0e62799b6cd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_05048c162f855110e3f1d0e62799b6cd">38cfea944761111078879128436d43f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 13:41:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

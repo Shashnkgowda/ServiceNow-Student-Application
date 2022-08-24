@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Result Statistics - New Tab">a515fe6f2ff45110e3f1d0e62799b627</grid_canvas>
         <height>18</height>
-        <portal_widget display_value="Created 2022-07-26 01:51:55">3b35b66f2ff45110e3f1d0e62799b656</portal_widget>
+        <portal_widget display_value="">3b35b66f2ff45110e3f1d0e62799b656</portal_widget>
         <posx>0</posx>
         <posy>10</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Adding Student Details">84c718b22f555110e3f1d0e62799b6bc</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 10:10:12</sys_created_on>
+        <sys_id>012a94762f555110e3f1d0e62799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adding Student Details.Any User</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_012a94762f555110e3f1d0e62799b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:10:12</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>ad3cb4391b39c990e84d2f8dee4bcbcf</instance_id>
+        <instance_name>dev125929</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_012a94762f555110e3f1d0e62799b659</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Adding Student Details">84c718b22f555110e3f1d0e62799b6bc</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-17 10:10:12</sys_created_on>
+        <sys_id>012a94762f555110e3f1d0e62799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adding Student Details.Any User</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_012a94762f555110e3f1d0e62799b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:10:12</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>]]></payload>
+        <payload_hash>-1688121881</payload_hash>
+        <record_name>Adding Student Details.Any User</record_name>
+        <reverted_from/>
+        <source>89bf66944761111078879128436d43a0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 12:54:48</sys_created_on>
+        <sys_id>05cf2e944761111078879128436d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c59eb5840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 12:54:48</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>c1cf2e94aa6111105f0e935b01712458</update_guid>
+        <update_guid_history>c1cf2e94aa6111105f0e935b01712458:-1688121881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Adding Student Details.Any User">b84a7e5447a1111078879128436d43cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 13:40:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>00d28d0a949c4782a93a884e9c0f4ee4</sys_id>
+        <sys_metadata>012a94762f555110e3f1d0e62799b659</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adding Student Details.Any User</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_012a94762f555110e3f1d0e62799b659</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_012a94762f555110e3f1d0e62799b659">05cf2e944761111078879128436d4358</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 13:40:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

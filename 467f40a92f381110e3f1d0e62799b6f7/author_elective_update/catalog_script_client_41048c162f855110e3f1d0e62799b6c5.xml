@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item/>
+        <cat_variable>IO:083778e12f891110e3f1d0e62799b6ca</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>populate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+	var rn = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_rollno',usr.student_rollno);
+	g_form.setValue('physics',usr.physics);
+	g_form.setValue('chemistry',usr.chemistry);
+	g_form.setValue('mathematics',usr.mathematics);
+	g_form.setValue('u_integer_8',usr.computer_science);
+	g_form.setValue('student_email',usr.student_email);
+	g_form.setValue('father_name', usr.father_name);
+	//g_form.setValue('class',usr.class);
+   
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 09:00:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41048c162f855110e3f1d0e62799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>populate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>catalog_script_client_41048c162f855110e3f1d0e62799b6c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 09:00:53</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>ad3cb4391b39c990e84d2f8dee4bcbcf</instance_id>
+        <instance_name>dev125929</instance_name>
+        <name>catalog_script_client_41048c162f855110e3f1d0e62799b6c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;false&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;true&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item/&gt;&lt;cat_variable&gt;IO:083778e12f891110e3f1d0e62799b6ca&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;populate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+	var rn = g_form.getReference('student',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('student_rollno',usr.student_rollno);
+	g_form.setValue('physics',usr.physics);
+	g_form.setValue('chemistry',usr.chemistry);
+	g_form.setValue('mathematics',usr.mathematics);
+	g_form.setValue('u_integer_8',usr.computer_science);
+	g_form.setValue('student_email',usr.student_email);
+	g_form.setValue('father_name', usr.father_name);
+	//g_form.setValue('class',usr.class);
+   
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-03 09:00:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;41048c162f855110e3f1d0e62799b6c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;populate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_41048c162f855110e3f1d0e62799b6c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-03 09:00:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1016769944</payload_hash>
+        <record_name>populate</record_name>
+        <reverted_from/>
+        <source>7d50f6144761111078879128436d43b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 13:41:12</sys_created_on>
+        <sys_id>6c6a7a9447a1111078879128436d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c5c92e510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 13:41:12</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>a86a7a948ba111106b2bc562f2dad719</update_guid>
+        <update_guid_history>a86a7a948ba111106b2bc562f2dad719:0,b7bfaa949d611110dda531e7a3bb6025:256453996</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="populate">9b9a7e1847a1111078879128436d431a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 13:42:12</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>4e248646c7c44e2ea62dfa96594a0aa4</sys_id>
+        <sys_metadata>41048c162f855110e3f1d0e62799b6c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>populate</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>catalog_script_client_41048c162f855110e3f1d0e62799b6c5</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_41048c162f855110e3f1d0e62799b6c5">6c6a7a9447a1111078879128436d4319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 13:42:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

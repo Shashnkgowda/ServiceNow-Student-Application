@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Result Statistics - New Tab">a515fe6f2ff45110e3f1d0e62799b627</canvas_page>
         <name>Result Statistics - New Tab</name>
-        <page display_value="PA Result Statistics - New Tab">6115fe6f2ff45110e3f1d0e62799b626</page>
+        <page display_value="">6115fe6f2ff45110e3f1d0e62799b626</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 08:51:13</sys_created_on>
