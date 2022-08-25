@@ -11,7 +11,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>connect_ms_teams</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.student.student_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_details_excel_sheet_table","column_name":"student_name"},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__action_status__","label":"1 - Post a Message➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__dont_treat_as_error__","label":"1 - Post a Message➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"selected":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"used":false,"label":"Pass","selected":false,"rawLabel":"Pass","image":"","reference":false,"missing":false,"value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Fail","selected":false,"rawLabel":"Fail","image":"","reference":false,"missing":false,"value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Hold","selected":false,"rawLabel":"Hold","image":"","reference":false,"missing":false,"value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"With Held","selected":false,"rawLabel":"With Held","image":"","reference":false,"missing":false,"value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"selected":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"used":false,"label":"Pass","selected":false,"rawLabel":"Pass","image":"","reference":false,"missing":false,"value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Fail","selected":false,"rawLabel":"Fail","image":"","reference":false,"missing":false,"value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Hold","selected":false,"rawLabel":"Hold","image":"","reference":false,"missing":false,"value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"With Held","selected":false,"rawLabel":"With Held","image":"","reference":false,"missing":false,"value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__dont_treat_as_error__","label":"1 - Post a Message➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__action_status__","label":"1 - Post a Message➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.student.student_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_details_excel_sheet_table","column_name":"student_name"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"}]</label_cache>
         <master_snapshot>e448376c47a5111078879128436d4366</master_snapshot>
         <name>connect ms teams</name>
         <natlang/>
@@ -22,22 +22,22 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:45:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c837b32c47a5111078879128436d43e8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>connect ms teams</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_hub_flow_c837b32c47a5111078879128436d43e8</sys_update_name>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:14:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c837b32c47a5111078879128436d43e8"/>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:53:27</sys_created_on>
         <sys_id>3e0937ac47a5111078879128436d437c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:15:20</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -175,7 +175,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD89dea4152e211110a4737dfce73bd4d1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe611fc95082111102a73f93dd665fb06,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:53:27</sys_created_on>
         <sys_id>360937ac47a5111078879128436d4376</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:15:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -256,7 +256,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -314,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>5628b36c47a5111078879128436d4325</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:14:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -337,7 +337,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -395,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>9628b36c47a5111078879128436d432c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:14:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -432,10 +432,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>9228b36c47a5111078879128436d434e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
-        <sys_updated_by>Teacher</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:05:25</sys_updated_on>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:15:20</sys_updated_on>
         <ui_id>8c5fca02-23b0-4007-b2ea-74538f01527f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9228b36c47a5111078879128436d434e"/>
@@ -488,11 +488,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>1628b36c47a5111078879128436d4350</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-24 12:30:28</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:14:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
-        <value>  As College results are announced , there is parents teacher meeting scheduled on : {{Created or Updated_1.current.meeting}} .</value>
+        <value>  As College results are announced , there is parents teacher meeting scheduled on : {{Created or Updated_1.current.meeting}} .
+please attend with your parents.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_title</field>
@@ -500,11 +501,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>da28b36c47a5111078879128436d4350</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-23 12:56:16</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2022-08-25 06:14:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
-        <value>{{Created or Updated_1.current.student.student_name}}</value>
+        <value>Hi {{Created or Updated_1.current.student.student_name}},</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_webhook_url</field>
@@ -602,7 +603,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7448376c47a5111078879128436d43e7","name":"plan","plan_signature":null}}</plan>
         <plan_id>c837b32c47a5111078879128436d43e8</plan_id>
-        <snapshot>e448376c47a5111078879128436d4366</snapshot>
+        <snapshot>7b2030954721111078879128436d437e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:50:03</sys_created_on>
         <sys_domain>global</sys_domain>
