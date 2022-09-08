@@ -11,9 +11,9 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>connect_ms_teams</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.student.student_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_details_excel_sheet_table","column_name":"student_name"},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__action_status__","label":"1 - Post a Message➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__dont_treat_as_error__","label":"1 - Post a Message➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"selected":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"used":false,"label":"Pass","selected":false,"rawLabel":"Pass","image":"","reference":false,"missing":false,"value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Fail","selected":false,"rawLabel":"Fail","image":"","reference":false,"missing":false,"value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"Hold","selected":false,"rawLabel":"Hold","image":"","reference":false,"missing":false,"value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"used":false,"label":"With Held","selected":false,"rawLabel":"With Held","image":"","reference":false,"missing":false,"value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.result","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Result","reference":"","reference_display":"Result","type":"choice","base_type":"choice","parent_table_name":"x_820118_stds_student_result_table","column_name":"result","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Pass","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Pass","value":"1","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Fail","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Fail","value":"2","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"Hold","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Hold","value":"3","parameters":{"name":"x_820118_stds_student_result_table"}},{"label":"With Held","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"With Held","value":"7","parameters":{"name":"x_820118_stds_student_result_table"}}]},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Result Table Record","reference":"x_820118_stds_student_result_table","reference_display":"Student Result Table","type":"reference","base_type":"reference","attributes":{}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__dont_treat_as_error__","label":"1 - Post a Message➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c5fca02-23b0-4007-b2ea-74538f01527f.__action_status__","label":"1 - Post a Message➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.student.student_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_details_excel_sheet_table","column_name":"student_name"},{"name":"Created or Updated_1.current.meeting","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Meeting","reference":"","reference_display":"Meeting","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_820118_stds_student_result_table","column_name":"meeting"},{"name":"Created or Updated_1.current.father_name","label":"Trigger - Record Created or Updated➛Student Result Table Record➛Father Name","reference":"","reference_display":"Father Name","type":"string","base_type":"string","parent_table_name":"x_820118_stds_student_result_table","column_name":"father_name"},{"name":"2292f669-0487-454d-baad-7c00554e7efc.__action_status__","label":"2 - Post Incident Details➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"2292f669-0487-454d-baad-7c00554e7efc.__dont_treat_as_error__","label":"2 - Post Incident Details➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <master_snapshot>e448376c47a5111078879128436d4366</master_snapshot>
-        <name>connect ms teams</name>
+        <name>Connect Ms teams</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id>63a181352fb85110e3f1d0e62799b6a8</remote_trigger_id>
@@ -22,22 +22,22 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:45:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c837b32c47a5111078879128436d43e8</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>connect ms teams</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Connect Ms teams</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_hub_flow_c837b32c47a5111078879128436d43e8</sys_update_name>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:52:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c837b32c47a5111078879128436d43e8"/>
@@ -70,43 +70,43 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>false</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"47e1b0194721111078879128436d43ba","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"47e1b0194721111078879128436d43ba","name":"trigger_runner","type":"java.util.HashMap"}</data>
         <identifier>c837b32c47a5111078879128436d43e8</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>beth.anglin</sys_created_by>
         <sys_created_on>2022-08-25 06:18:55</sys_created_on>
         <sys_id>47e1b0194721111078879128436d43ba</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:52:30</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 11:50:55</sys_updated_on>
         <trigger display_value="">63a181352fb85110e3f1d0e62799b6a8</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
         <document_id>47e1b0194721111078879128436d43ba</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
-        <sys_created_by>beth.anglin</sys_created_by>
-        <sys_created_on>2022-08-25 06:18:55</sys_created_on>
-        <sys_id>cfe1b0194721111078879128436d43bb</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 09:59:43</sys_created_on>
+        <sys_id>75ba69fd4735111078879128436d4392</sys_id>
     </sys_json_chunk>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c837b32c47a5111078879128436d43e8^sys_idNOT IN47e1b0194721111078879128436d43ba"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=c837b32c47a5111078879128436d43e8^sys_idNOT IN3e0937ac47a5111078879128436d437c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="connect ms teams">c837b32c47a5111078879128436d43e8</flow>
+        <flow display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:53:27</sys_created_on>
         <sys_id>3e0937ac47a5111078879128436d437c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:18:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -175,7 +175,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD72e1b019c62111102fbf319fd04f190f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDba55c81e5f21111007d86948064dddee,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -210,7 +210,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="connect ms teams">c837b32c47a5111078879128436d43e8</model>
+        <model display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</model>
         <model_id>c837b32c47a5111078879128436d43e8</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_c837b32c47a5111078879128436d43e8</name>
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:53:27</sys_created_on>
         <sys_id>360937ac47a5111078879128436d4376</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:18:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -256,7 +256,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -291,7 +291,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="connect ms teams">c837b32c47a5111078879128436d43e8</model>
+        <model display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</model>
         <model_id>c837b32c47a5111078879128436d43e8</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_c837b32c47a5111078879128436d43e8</name>
@@ -314,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>5628b36c47a5111078879128436d4325</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:18:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -337,7 +337,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -372,7 +372,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="connect ms teams">c837b32c47a5111078879128436d43e8</model>
+        <model display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</model>
         <model_id>c837b32c47a5111078879128436d43e8</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_c837b32c47a5111078879128436d43e8</name>
@@ -395,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>9628b36c47a5111078879128436d432c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:18:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -425,17 +425,17 @@
         <comment/>
         <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
         <display_text/>
-        <flow display_value="connect ms teams">c837b32c47a5111078879128436d43e8</flow>
+        <flow display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-23 12:49:36</sys_created_on>
         <sys_id>9228b36c47a5111078879128436d434e</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
-        <sys_updated_by>beth.anglin</sys_updated_by>
-        <sys_updated_on>2022-08-25 06:18:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-28 05:38:08</sys_updated_on>
         <ui_id>8c5fca02-23b0-4007-b2ea-74538f01527f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9228b36c47a5111078879128436d434e"/>
@@ -633,7 +633,7 @@ please attend with your parents.</value>
         <name>connect ms teams</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="connect ms teams">c837b32c47a5111078879128436d43e8</parent_flow>
+        <parent_flow display_value="Connect Ms teams">c837b32c47a5111078879128436d43e8</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>

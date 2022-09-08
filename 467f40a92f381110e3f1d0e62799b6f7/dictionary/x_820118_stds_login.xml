@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="login" max_length="40" name="x_820118_stds_login" type="collection">
+        <element label="I'm not a ROBOT" max_length="40" name="i_m_not_a_robot" type="boolean"/>
+        <element label="password" max_length="40" name="password" type="string"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

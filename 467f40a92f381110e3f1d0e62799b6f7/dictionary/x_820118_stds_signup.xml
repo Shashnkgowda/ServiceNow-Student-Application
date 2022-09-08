@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Signup" max_length="40" name="x_820118_stds_signup" type="collection">
+        <element label="class number" max_length="40" name="class_number" type="string"/>
+        <element display="true" label="confirm password" max_length="40" name="confirm_password" type="string"/>
+        <element label="create password" max_length="40" name="create_password" type="string"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="announcement" max_length="40" name="x_820118_stds_announcement" type="collection">
+        <element display="true" label="Announcement text" max_length="40" name="announcement_text" type="string"/>
+    </element>
+</database>
