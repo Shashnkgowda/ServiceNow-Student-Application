@@ -72,7 +72,7 @@
         <update_guid_history>8a90949097951110d7553db7971dfc9f:165676160,0e9f8450c0951110ebb6dd3bfd10a3db:-731950323,76c0d852820511105b993fec6d47fdef:-880580926,90690496e3c111107c37b3584a8b85f9:-1868754574</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Input Student Data">61c39baa2fd15110223051072799b680</sys_audit_delete>
+        <sys_audit_delete display_value="">61c39baa2fd15110223051072799b680</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-17 05:02:46</sys_created_on>

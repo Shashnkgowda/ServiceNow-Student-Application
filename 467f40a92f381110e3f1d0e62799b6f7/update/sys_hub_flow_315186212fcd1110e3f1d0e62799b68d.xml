@@ -37,62 +37,11 @@
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_hub_flow_315186212fcd1110e3f1d0e62799b68d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-23 05:41:59</sys_updated_on>
+        <sys_updated_on>2022-09-16 07:49:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=315186212fcd1110e3f1d0e62799b68d"/>
     <sys_variable_value action="delete_multiple" query="document_key=315186212fcd1110e3f1d0e62799b68d"/>
-    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <condition table="x_820118_stds_student_result_table">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
-        <name/>
-        <on_delete>false</on_delete>
-        <on_insert>true</on_insert>
-        <on_update>true</on_update>
-        <run_flow_in>background</run_flow_in>
-        <run_on_extended>false</run_on_extended>
-        <run_when_setting>both</run_when_setting>
-        <run_when_user_list/>
-        <run_when_user_setting>any</run_when_user_setting>
-        <sys_class_name>sys_flow_record_trigger</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-20 13:57:39</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>63a181352fb85110e3f1d0e62799b6a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-20 13:57:39</sys_updated_on>
-        <table>x_820118_stds_student_result_table</table>
-    </sys_flow_record_trigger>
-    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"d53b1e392f411110e3f1d0e62799b6f8","name":"trigger_runner","type":"java.util.HashMap"}</data>
-        <identifier>315186212fcd1110e3f1d0e62799b68d</identifier>
-        <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-02 06:44:30</sys_created_on>
-        <sys_id>d53b1e392f411110e3f1d0e62799b6f8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-03 10:46:09</sys_updated_on>
-        <trigger display_value="">63a181352fb85110e3f1d0e62799b6a8</trigger>
-    </sys_trigger_runner_mapping>
-    <sys_json_chunk action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
-        <document_id>d53b1e392f411110e3f1d0e62799b6f8</document_id>
-        <field>trigger_runner</field>
-        <length>144</length>
-        <position>0</position>
-        <source_table>sys_trigger_runner_mapping</source_table>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-24 10:59:08</sys_created_on>
-        <sys_id>b178e0854761111078879128436d431e</sys_id>
-    </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INd53b1e392f411110e3f1d0e62799b6f8"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=315186212fcd1110e3f1d0e62799b68d^sys_idNOT INa9438aa12fcd1110e3f1d0e62799b6bc"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -1035,7 +984,7 @@
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-02 06:44:30</sys_updated_on>
-        <trigger display_value="">63a181352fb85110e3f1d0e62799b6a8</trigger>
+        <trigger/>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=315186212fcd1110e3f1d0e62799b68d"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
