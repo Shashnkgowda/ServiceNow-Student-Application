@@ -29,7 +29,13 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "margin" : "var(--now-static-space--xxl)",
+    "background" : "#D9D973",
+    "border-color" : "RGB(var(--now-color--neutral-5))",
+    "border-width" : "var(--now-static-space--xxs)",
+    "border-style" : "solid"
+  }
 }, {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
@@ -1375,7 +1381,7 @@
     "items" : [{"element_id":"rich_text_1","styles":{}},{"element_id":"single_score_1","styles":{}},{"element_id":"container_1","styles":{}}],
     "root" : null,
     "rules" : null,
-    "styles" : {"flex-direction":"column"},
+    "styles" : {"flex-direction":"column","background":"rgb(var(--now-color--secondary-0))"},
     "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
     "type" : "flex"
   },
@@ -1412,13 +1418,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-22 07:08:28</sys_created_on>
         <sys_id>25c9091a1b4ad510c114fcc8cc4bcb50</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Student Dashboard Page</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_ux_macroponent_25c9091a1b4ad510c114fcc8cc4bcb50</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-22 07:52:14</sys_updated_on>
+        <sys_updated_on>2022-09-22 09:14:04</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

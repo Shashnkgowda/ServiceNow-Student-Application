@@ -11,7 +11,7 @@
       "type" : "TRANSLATION_LITERAL",
       "value" : {
         "code" : null,
-        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #993300;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Studnet Application&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #ff6600;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Login Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #993300;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Student Application&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #ff6600;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Login Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
         "comment" : ""
       }
     }
@@ -225,40 +225,16 @@
           "event" : {
             "apiName" : "x_820118_stds.NAV_ITEM_SELECTED_RELAY_4adc34da1b0ad510c114fcc8cc4bcbdd",
             "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : {
-                "route" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "teacher-portal-page"
-                },
-                "fields" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "params" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "redirect" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "passiveNavigation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "title" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "multiInstField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "targetRoute" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "teacher-portal-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
                 "external" : null
               }
             },
@@ -325,7 +301,70 @@
           "container" : { }
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "cliictzhbpaaggbbyddffhheedxffnjdjja",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_stds.NAV_ITEM_SELECTED_RELAY_4adc34da1b0ad510c114fcc8cc4bcbdd",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "student-result-page"
+                },
+                "fields" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "af76cd161b4ad510c114fcc8cc4bcb08"
+          },
+          "operation" : null,
+          "targetId" : "cliictzhbpaaggbbzddffhheeddfkiivfffk",
+          "type" : "EVENT"
+        } ]
+      } ],
       "slot" : null,
       "definition" : {
         "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -391,7 +430,7 @@
         <name>Student Login Page</name>
         <props>[ ]</props>
         <required_translations>[ {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #993300;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Studnet Application&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #ff6600;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Login Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #993300;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Student Application&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through; color: #ff6600;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Login Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Enter a label",
@@ -412,13 +451,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-22 06:11:58</sys_created_on>
         <sys_id>4adc34da1b0ad510c114fcc8cc4bcbdd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Student Login Page</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_ux_macroponent_4adc34da1b0ad510c114fcc8cc4bcbdd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-22 06:54:09</sys_updated_on>
+        <sys_updated_on>2022-09-22 09:08:02</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

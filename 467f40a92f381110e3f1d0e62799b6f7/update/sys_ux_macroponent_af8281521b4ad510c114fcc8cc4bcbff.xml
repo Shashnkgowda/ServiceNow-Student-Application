@@ -29,7 +29,11 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "margin" : "var(--now-static-space--xxl)",
+    "padding" : "var(--now-static-space--lg)",
+    "background" : "#C0BB64"
+  }
 }, {
   "elementId" : "card_base_container_1",
   "elementLabel" : "Card Base Container 1",
@@ -123,40 +127,16 @@
           "event" : {
             "apiName" : "x_820118_stds.NAV_ITEM_SELECTED_RELAY_af8281521b4ad510c114fcc8cc4bcbff",
             "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : {
-                "route" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "student-dashboard-page"
-                },
-                "fields" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "params" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "redirect" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "passiveNavigation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "title" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "multiInstField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "targetRoute" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "student-dashboard-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
                 "external" : null
               }
             },
@@ -201,7 +181,9 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "background" : "rgb(var(--now-color--primary-0))"
+  }
 }, {
   "elementId" : "card_base_container_2",
   "elementLabel" : "Card Base Container 2",
@@ -349,7 +331,9 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "background" : "rgb(var(--now-color--primary-1))"
+  }
 }, {
   "elementId" : "card_base_container_3",
   "elementLabel" : "Card Base Container 3",
@@ -497,7 +481,9 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "background" : "rgb(var(--now-color--secondary-0))"
+  }
 }, {
   "elementId" : "card_base_container_4",
   "elementLabel" : "Card Base Container 4",
@@ -645,7 +631,9 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "background" : "rgb(var(--now-color--primary-2))"
+  }
 }, {
   "elementId" : "card_base_container_5",
   "elementLabel" : "Card Base Container 5",
@@ -754,7 +742,9 @@
   },
   "isHero" : false,
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "background" : "rgb(var(--now-color--secondary-1))"
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
@@ -771,7 +761,7 @@
     "items" : [{"element_id":"rich_text_1","styles":{}},{"element_id":"card_base_container_1","styles":{}},{"element_id":"card_base_container_2","styles":{}},{"element_id":"card_base_container_4","styles":{}},{"element_id":"card_base_container_3","styles":{}},{"element_id":"card_base_container_5","styles":{}}],
     "root" : null,
     "rules" : null,
-    "styles" : {"flex-direction":"column"},
+    "styles" : {"flex-direction":"column","background":"rgb(var(--now-color--secondary-1))"},
     "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
     "type" : "flex"
   },
@@ -811,13 +801,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-22 06:36:55</sys_created_on>
         <sys_id>af8281521b4ad510c114fcc8cc4bcbff</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Teacher Portal Page</sys_name>
         <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
         <sys_update_name>sys_ux_macroponent_af8281521b4ad510c114fcc8cc4bcbff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-22 07:57:32</sys_updated_on>
+        <sys_updated_on>2022-09-22 09:12:23</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
