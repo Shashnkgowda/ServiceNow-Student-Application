@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>2</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">9f359a652f015110e3f1d0e62799b67b</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 11:39:56</sys_created_on>
+        <sys_id>5f359a652f015110e3f1d0e62799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_column_5f359a652f015110e3f1d0e62799b67f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 11:39:56</sys_updated_on>
+    </sp_column>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sp_column_5f359a652f015110e3f1d0e62799b67f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>2</order>
+        <size>2</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">9f359a652f015110e3f1d0e62799b67b</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 11:39:56</sys_created_on>
+        <sys_id>5f359a652f015110e3f1d0e62799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_column_5f359a652f015110e3f1d0e62799b67f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 11:39:56</sys_updated_on>
+    </sp_column>
+</record_update>]]></payload>
+        <payload_hash>-288962653</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>4e499adc1b8a1110c114fcc8cc4bcb3c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 07:48:58</sys_created_on>
+        <sys_id>e4891a101bca1110c114fcc8cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1834545b0e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 07:48:58</sys_updated_on>
+        <type>Column</type>
+        <update_guid>64891a1063ca11102f059137a4003fa0</update_guid>
+        <update_guid_history>64891a1063ca11102f059137a4003fa0:0,9c485698218a11103faaed4c11ad9b5e:-943873494,f331311cd3c611101fcf8208e1113109:-288962653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">265f564e1bce9510c114fcc8cc4bcb8a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 18:43:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>3d76997f205b4657a1bc848a6526e9b1</sys_id>
+        <sys_metadata>5f359a652f015110e3f1d0e62799b67f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_column_5f359a652f015110e3f1d0e62799b67f</sys_update_name>
+        <sys_update_version display_value="sp_column_5f359a652f015110e3f1d0e62799b67f">e4891a101bca1110c114fcc8cc4bcba0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 18:43:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

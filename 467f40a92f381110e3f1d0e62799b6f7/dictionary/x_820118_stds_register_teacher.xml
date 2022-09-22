@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Register Teacher" max_length="40" name="x_820118_stds_register_teacher" type="collection">
+        <element label="address" max_length="40" name="address" type="string"/>
+        <element label="confirm password" max_length="40" name="confirm_password" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="password" max_length="40" name="password" type="string"/>
+        <element label="phone number" max_length="40" name="phone_number" type="longint"/>
+        <element label="Teacher id" max_length="40" name="teacher_id" type="string"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

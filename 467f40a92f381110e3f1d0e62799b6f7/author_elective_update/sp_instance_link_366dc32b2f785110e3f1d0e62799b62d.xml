@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>user</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>sm</size>
+        <sp_column display_value="1">df359a652f015110e3f1d0e62799b67d</sp_column>
+        <sp_page display_value="college_homepage">a261deab2f745110e3f1d0e62799b6ac</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:37:32</sys_created_on>
+        <sys_id>366dc32b2f785110e3f1d0e62799b62d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>TEACHER</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_instance_link_366dc32b2f785110e3f1d0e62799b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 11:40:00</sys_updated_on>
+        <title>TEACHER</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=366dc32b2f785110e3f1d0e62799b62d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sp_instance_link_366dc32b2f785110e3f1d0e62799b62d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;
+    &lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color&gt;success&lt;/color&gt;
+        &lt;css/&gt;
+        &lt;glyph&gt;user&lt;/glyph&gt;
+        &lt;id/&gt;
+        &lt;kb_article/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_topic/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;roles/&gt;
+        &lt;sc_cat_item/&gt;
+        &lt;sc_category/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;sm&lt;/size&gt;
+        &lt;sp_column display_value="1"&gt;df359a652f015110e3f1d0e62799b67d&lt;/sp_column&gt;
+        &lt;sp_page display_value="college_homepage"&gt;a261deab2f745110e3f1d0e62799b6ac&lt;/sp_page&gt;
+        &lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-07-26 10:37:32&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;366dc32b2f785110e3f1d0e62799b62d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;TEACHER&lt;/sys_name&gt;
+        &lt;sys_package display_value="Student App" source="x_820118_stds"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Student App"&gt;467f40a92f381110e3f1d0e62799b6f7&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_link_366dc32b2f785110e3f1d0e62799b62d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-08-01 11:40:00&lt;/sys_updated_on&gt;
+        &lt;title&gt;TEACHER&lt;/title&gt;
+        &lt;type&gt;page&lt;/type&gt;
+        &lt;url/&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance_link&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=366dc32b2f785110e3f1d0e62799b62d"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1033834295</payload_hash>
+        <record_name>TEACHER</record_name>
+        <reverted_from/>
+        <source>4e499adc1b8a1110c114fcc8cc4bcb3c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 07:49:11</sys_created_on>
+        <sys_id>b7895e101bca1110c114fcc8cc4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1834545e3e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 07:49:11</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>37895e10baca1110e09e0441352feb2d</update_guid>
+        <update_guid_history>37895e10baca1110e09e0441352feb2d:0,50485698b08a11107ac1d4394ca64572:1040704417,2541b11cd5c61110f88e014d7e4b1e17:1033834295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TEACHER">3b7f1a4e1bce9510c114fcc8cc4bcbf9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 18:44:30</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>4240017cbc8d4b84bd23562f29510811</sys_id>
+        <sys_metadata>366dc32b2f785110e3f1d0e62799b62d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEACHER</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_instance_link_366dc32b2f785110e3f1d0e62799b62d</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_366dc32b2f785110e3f1d0e62799b62d">b7895e101bca1110c114fcc8cc4bcb2d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 18:44:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

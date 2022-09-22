@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Signup" max_length="40" name="x_820118_stds_signup" type="collection">
+    <element label="Signup" max_length="40" name="x_820118_stds_signup" sizeclass="11" type="collection">
+        <element label="class" max_length="40" name="class" type="string"/>
         <element label="class number" max_length="40" name="class_number" type="string"/>
         <element display="true" label="confirm password" max_length="40" name="confirm_password" type="string"/>
         <element label="create password" max_length="40" name="create_password" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="first name" max_length="40" name="first_name" type="string"/>
+        <element label="last name" max_length="40" name="last_name" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="integer"/>
+        <element label="profile picture" max_length="40" name="profile_picture" type="user_image"/>
         <element label="User Name" max_length="40" name="user_name" type="string"/>
     </element>
 </database>

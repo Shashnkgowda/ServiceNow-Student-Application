@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(glideUserSession, $sce, $window) {
+  var c = this;
+	var shared = c.widget.options.shared;
+
+	if (shared.externalLoginURL)
+		c.externalLoginURL = $sce.trustAsResourceUrl(shared.externalLoginURL);
+
+	c.username = shared.username ? shared.username : "";
+
+	c.onUsernameChange = function() {
+		shared.username = c.username;
+	}
+
+	c.onPasswordChange = function() {
+		shared.password = c.password;
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.iframeDiv {
+	overflow-x: scroll;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>studentlogin</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>studentlogin</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 12:07:48</sys_created_on>
+        <sys_id>b0b441c61b8a9510c114fcc8cc4bcb04</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>studentlogin</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_widget_b0b441c61b8a9510c114fcc8cc4bcb04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 12:09:50</sys_updated_on>
+        <template><![CDATA[<div>
+  <div ng-if="c.externalLoginURL" class="iframeDiv">
+    <iframe sandbox="allow-forms allow-scripts allow-same-origin" ng-src={{c.externalLoginURL}}></iframe>
+  </div>
+
+  <div ng-if="!c.externalLoginURL" class="list-group list-group-sm">
+      <div class="list-group-item">
+        <label for="username" class="sr-only ng-binding">${User name}</label>
+        <input id="username" name="username" autocapitalize="off" class="form-control no-border ng-pristine ng-valid ng-empty ng-touched" type="text" placeholder="${User name}" autofocus="true" ng-model="c.username" ng-change="c.onUsernameChange()" role="textbox" aria-invalid="false">
+       </div>
+       <div class="list-group-item">
+        <label for="password" class="sr-only ng-binding">${Password}</label>
+        <input id="password" name="password" class="form-control no-border ng-pristine ng-untouched ng-valid ng-empty" type="password" placeholder="${Password}" ng-model="c.password" role="textbox" ng-change="c.onPasswordChange()" aria-invalid="false">
+       </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

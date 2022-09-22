@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">5eb84d8a1b8a9510c114fcc8cc4bcb5c</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 12:25:23</sys_created_on>
+        <sys_id>56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_update_name>sp_column_56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 12:25:23</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sp_column_56b84d8a1b8a9510c114fcc8cc4bcb5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">5eb84d8a1b8a9510c114fcc8cc4bcb5c</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-21 12:25:23</sys_created_on><sys_id>56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package><sys_policy/><sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope><sys_update_name>sp_column_56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-21 12:25:23</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>2016229464</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>fc9ad2dc1b8a1110c114fcc8cc4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 12:25:23</sys_created_on>
+        <sys_id>56b84d8a1b8a9510c114fcc8cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18360028d410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 12:25:23</sys_updated_on>
+        <type>Column</type>
+        <update_guid>9eb84d8a398a9510387398b5664d6b60</update_guid>
+        <update_guid_history>9eb84d8a398a9510387398b5664d6b60:2016229464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">f9d8498a1b8a9510c114fcc8cc4bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 12:25:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>3b08b4e8558a403c87236cf95deb4c90</sys_id>
+        <sys_metadata>56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Student App" source="x_820118_stds">467f40a92f381110e3f1d0e62799b6f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student App">467f40a92f381110e3f1d0e62799b6f7</sys_scope>
+        <sys_scope_delete display_value="">2bd7f344b49a4322b9ea904a7893b381</sys_scope_delete>
+        <sys_update_name>sp_column_56b84d8a1b8a9510c114fcc8cc4bcb5f</sys_update_name>
+        <sys_update_version display_value="sp_column_56b84d8a1b8a9510c114fcc8cc4bcb5f">56b84d8a1b8a9510c114fcc8cc4bcb61</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 12:25:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
